@@ -2,8 +2,14 @@
 import React, { Component } from 'react';
 class Card extends Component {
   render() {
+    const cardstyle = {
+      width: 200,
+      display: "inline-block",
+      margin: 10,
+      backgroundColor: this.props.color
+    }
     return (
-      <div className="card-style" style={{backgroundColor: this.props.color}}>
+      <div style={cardstyle}>
         <h1>{this.props.titre}</h1>
         <div>
         <p>{this.props.para}</p>
@@ -16,3 +22,4 @@ class Card extends Component {
 }
 
 export default Card;
+

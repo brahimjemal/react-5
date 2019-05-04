@@ -1,11 +1,11 @@
 
 
-.card-style {
+.cardstyle {
   width: 200px;
   display: inline-block;
   margin: 10px
 }
-.city-style{
+.citystyle{
   /* display: inline-block; */
   margin: 10px;
   display: flex;
